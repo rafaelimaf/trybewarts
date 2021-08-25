@@ -38,9 +38,29 @@ main , #evaluation-form {
 #evaluation-form {
   width: 675px;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
   align-self: flex-end;
+}
+
+#first {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 10px 0;
+}
+
+#second {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 10px 0;
+}
+
+.side {
+  justify-content: space-evenly;
 }
