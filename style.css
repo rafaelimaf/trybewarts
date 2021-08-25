@@ -5,5 +5,28 @@ body {
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trybewarts-login {
+  display: flex;
+  height: 25 px;
+  font-size: 20px;
+  align-items: center;
+  color: white;
   justify-content: space-evenly;
+}
+
+#btn-login {
+  margin-left: 5px;
+}
+
+.trybewarts-header-logo {
+  width: 75px;
+  height: 75px;
+}
+
+#trybewarts-header-title {
+  color: white;
 }
