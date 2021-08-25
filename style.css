@@ -37,4 +37,10 @@ main , #evaluation-form {
 
 #evaluation-form {
   width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  align-self: flex-end;
 }
