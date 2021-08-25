@@ -31,7 +31,7 @@ body {
   color: white;
 }
 
-main, #evaluation-form {
+main , #evaluation-form {
   display: flex;
 }
 
