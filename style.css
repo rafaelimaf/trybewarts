@@ -61,6 +61,10 @@ main , #evaluation-form {
   margin: 10px 0;
 }
 
-.side {
-  justify-content: space-evenly;
+#label-family {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 10px 0;
 }
