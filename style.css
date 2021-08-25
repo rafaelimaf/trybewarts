@@ -30,3 +30,11 @@ body {
 #trybewarts-header-title {
   color: white;
 }
+
+main, #evaluation-form {
+  display: flex;
+}
+
+#evaluation-form {
+  width: 675px;
+}
