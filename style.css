@@ -75,3 +75,10 @@ main , #evaluation-form {
   width: 70%;
   margin: 10px 0;
 }
+
+#rate-content {
+  display: flex;
+  flex-flow: row;
+  width: 70%;
+  margin: 10px 0;
+}
