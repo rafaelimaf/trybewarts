@@ -68,3 +68,10 @@ main , #evaluation-form {
   width: 70%;
   margin: 10px 0;
 }
+
+#checkbox-content {
+  display: flex;
+  flex-flow: column;
+  width: 70%;
+  margin: 10px 0;
+}
