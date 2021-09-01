@@ -61,6 +61,14 @@ main , #evaluation-form {
   margin: 10px 0;
 }
 
+#house {
+  width: 185px;
+}
+
+.container {
+  display: flex;
+}
+
 #third {
   justify-content: space-between;
   display: flex;
@@ -73,7 +81,13 @@ main , #evaluation-form {
   display: flex;
   flex-flow: column;
   width: 70%;
-  margin: 10px 0;
+  margin: 10px 8px;
+}
+
+#checkbox-content div {
+  display: inline-flex;
+  flex-flow: wrap;
+  width: 180px;
 }
 
 #rate-content {
