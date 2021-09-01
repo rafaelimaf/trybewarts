@@ -75,6 +75,7 @@ main , #evaluation-form {
   flex-direction: column;
   width: 70%;
   margin: 10px 0;
+  margin-right: 80px;
 }
 
 #checkbox-content {
