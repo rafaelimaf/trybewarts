@@ -10,12 +10,12 @@ window.onload = () => {
     //Percorre o campo com elementos de login e os compara com a nova variável infoInput.
     for (let i = 0; i < inputLogin.length - 1; i += 1) {
       const infoInput = inputLogin[i];
-      if (infoInput.value === loginInfo[i]) {
-        alert('Olá, Tryber!');
+      if (infoInput.value !== loginInfo[i]) {
+        alert('Email ou senha inválidos.');
         return;
       }
     }
-    alert('Email ou senha inválidos.');
+    alert('Olá, Tryber!');
   }
 
   button.addEventListener('click', loginConected);
